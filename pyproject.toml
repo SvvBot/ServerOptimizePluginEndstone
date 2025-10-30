@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endstone-server-optimizer"
+version = "1.0.0"
+description = "Server optimization plugin for Endstone Minecraft Bedrock"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "endstone>=0.10.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "psutil>=5.9.0"
+]
+
+[project.entry-points."endstone"]
+server_optimizer = "server_optimizer:ServerOptimizerPlugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]
