@@ -27,8 +27,8 @@ Featuring dynamic view distance adjustment, emergency crash recovery, and detail
 
 ### Option 1: Install the Pre-Built Plugin (Recommended)
 
-1.  **Download:** Download the latest release of the `ServerOptimizerPlugin.py` file.
-2.  **Upload:** Place the file into your server's `plugins/` directory.
+1.  **Download:** Download the latest release (the **`.whl`** file) from the assets.
+2.  **Upload:** Place the **`.whl`** file into your server's `plugins/` directory.
 3.  **Restart/Reload:** Restart your Endstone server or use the command `/reload` to load the plugin.
 
 ### Option 2: Building from Source (For Developers)
